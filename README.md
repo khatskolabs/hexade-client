@@ -1,4 +1,4 @@
-<div align="center"><pre style="color: red;">
+<div align="center"><pre>
  __                                        __          
 |  \                                      |  \         
 | ▓▓____   ______  __    __  ______   ____| ▓▓ ______  
