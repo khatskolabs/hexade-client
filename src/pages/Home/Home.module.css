@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 40px;
+  color: #f0f0f0;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-shadow: #222 10px 20px 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin: 20px;
+  padding: 13px 23px;
+  color: #222;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Montserrat";
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #fcd535;
+  box-shadow: #222 10px 15px 10px;
+}
+
+.link:hover {
+  transform: scale(1.01);
+  box-shadow: #222 5px 10px 10px;
+  transition-duration: 200ms;
+}
+
+.link:active {
+  background-color: #f0f0f0;
+}

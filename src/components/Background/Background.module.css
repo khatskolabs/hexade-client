@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.darkMode {
+  background-image: linear-gradient(#202020, #303030);
+}
+
+.darkSimpleMode {
+  background-color: #222;
+}
+
+.lightMode {
+  background-image: linear-gradient(#fcd535, #ffcd00);
+}
+
+.lightSimpleMode {
+  background-color: #ffcd00;
+}
+
+.layoutCenter {
+  justify-content: center;
+}
+
+.layoutSpaceAround {
+  justify-content: space-around;
+}
+
+.layoutSpaceBetween {
+  justify-content: space-between;
+}
+
+.left {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 150px 0 0;
+  border-color: #fcd535 transparent transparent transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 150px 150px;
+  border-color: transparent transparent #fcd535 transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

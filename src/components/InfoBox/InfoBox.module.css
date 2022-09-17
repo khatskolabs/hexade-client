@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p, b, a {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 1.4;
+}
+
+p {
+  font-weight: normal;
+}
+
+b {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}

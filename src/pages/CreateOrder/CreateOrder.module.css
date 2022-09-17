@@ -1,0 +1,82 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.done {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #f0f0f0;
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  text-shadow: #222 10px 20px 10px;
+  text-align: center;
+}
+
+.text {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Montserrat";
+  text-shadow: #222 10px 20px 10px;
+  text-align: center;
+}
+
+.links {
+  margin: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createOrder {
+  margin: 20px;
+  padding: 13px 23px;
+  color: #222;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Montserrat";
+  border: none;
+  border-radius: 5px;
+  background-color: #fcd535;
+  box-shadow: #222 10px 10px 10px;
+}
+
+.createOrder:hover {
+  transform: scale(1.01);
+  box-shadow: #222 5px 5px 10px;
+  transition-duration: 200ms;
+}
+
+.createOrder:active {
+  background-color: #f0f0f0;
+}
+
+.goHome {
+  margin: 20px;
+  color: #fcd535;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Montserrat";
+  text-decoration: underline;
+  text-shadow: #222 5px 10px 10px;
+}
+
+.goHome:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+export { default as Home } from "./Home/Home"
+export { default as CreateOrder } from "./CreateOrder/CreateOrder"
+export { default as CheckOrder } from "./CheckOrder/CheckOrder"
+export { default as PrivacyPolicy } from "./PrivacyPolicy/PrivacyPolicy"
+export { default as NotFound } from "./NotFound/NotFound"

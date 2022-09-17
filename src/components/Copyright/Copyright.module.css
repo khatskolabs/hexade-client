@@ -1,0 +1,18 @@
+.text {
+  color: #f0f0f0;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Montserrat";
+
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+
+.link {
+  color: #ffcd00;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Montserrat";
+}

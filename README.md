@@ -1,2 +1,1 @@
-# hexade-client
-Hexade Client
+# Hexade Client
