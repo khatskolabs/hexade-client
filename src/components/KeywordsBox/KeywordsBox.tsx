@@ -1,4 +1,5 @@
-import React, { FormEvent, useState } from "react"
+import React, { FormEvent, useState, useEffect } from "react"
+import { ToolsApi } from "../../api"
 import Styles from "./KeywordsBox.module.css"
 
 enum StatusCode {
@@ -27,14 +28,15 @@ const defaultProps = {
 const KeywordsBox = (props: KeywordsBoxProps & typeof defaultProps) => {
   const { status, value, setValue, placeholder, description, handleChange, handleCorrect } = props
 
-  const [max, setMax] = useState(20)
+  const [max, setMax] = useState(32)
   const [counter, setCounter] = useState(0)
   const [message, setMessage] = useState(status)
 
   const generate = () => {
-    const keywords = "apple dog home pencin people red forest city"
-    setValue(keywords)
-    setCounter(counting(keywords))
+    ToolsApi.getRandomWords(max).then(res => {
+      setValue(res.join(", "))
+      setCounter(res.length)
+    })
   }
 
   const counting = (v: string) => {

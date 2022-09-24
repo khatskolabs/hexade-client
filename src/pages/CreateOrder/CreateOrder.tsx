@@ -200,8 +200,10 @@ const CreateOrder = () => {
   }
 
   const confirmClick = () => {
-    OrdersApi.create(blockchain, address, keywords, email)
-    setDone(true)
+    OrdersApi.create(blockchain, address, keywords, email).then(res => {
+      console.log(res)
+      setDone(true)
+    })
   }
 
   const resetClick = () => {

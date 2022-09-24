@@ -9,7 +9,7 @@ type CopyrightProps = {
 }
 
 const defaultProps = {
-  text: "Copyright © 2022 Khatsko Lab. All rights reserved.",
+  text: "Copyright © 2022 Khatsko Labs. All rights reserved.",
   to: "Privacy Policy",
   link: "/privacy-policy"
 }

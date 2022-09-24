@@ -1,7 +1,2 @@
-const WEBSITE_URL = "https://crypto-horses.com"
-const API_URL = "https://api.crypto-horses.com"
-
-export {
-  WEBSITE_URL,
-  API_URL
-}
+export const WEBSITE_URL = "http://localhost:3000"
+export const API_URL = "http://localhost:5000"
